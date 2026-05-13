@@ -1,0 +1,21 @@
+name = "cfupload"
+main = "public/js/worker.js"
+compatibility_date = "2024-04-03"
+#pages_build_output_dir = "." root_directory
+#pages_build_output_dir = "./public"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "mybucket"
+
+[vars]
+PUBLIC_BUCKET_URL = "https://pub-3bf7408e0417461b84e0f403d69c5e83.r2.dev"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.html"]
+fallthrough = true

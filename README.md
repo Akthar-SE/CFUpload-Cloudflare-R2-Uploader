@@ -6,9 +6,17 @@
 
 # Introducing CFUpload
 
-CFUpload is a high-performance, lightweight web application built to run at the edge using Cloudflare Workers. It provides a sleek, modern interface for managing files within Cloudflare R2 Object Storage, offering a cost-effective and ultra-fast alternative to traditional cloud storage dashboards.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/username/repo/main/assets/logo-light.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/username/repo/main/assets/logo-dark.png">
+    <img alt="CFUpload Logo" src="https://raw.githubusercontent.com/username/repo/main/assets/logo-dark.png" width="300">
+  </picture>
+</p>
 
-Designed for developers and teams who value speed and simplicity, CFUpload eliminates the complexity of S3 management while taking full advantage of Cloudflare’s zero-egress fee model.
+**CFUpload** is a high-performance, lightweight web application built to run at the edge using **Cloudflare Workers**. It provides a sleek, modern interface for managing files within **Cloudflare R2 Object Storage**, offering a cost-effective and ultra-fast alternative to traditional cloud storage dashboards.
+
+Designed for developers and teams who value speed and simplicity, **CFUpload** eliminates the complexity of S3 management while taking full advantage of Cloudflare’s zero-egress fee model.
 
 ## 🚀 Features
 * **Efficient File Uploads:** Seamlessly upload files of all sizes directly to your R2 buckets with optimized performance.
@@ -22,9 +30,9 @@ Designed for developers and teams who value speed and simplicity, CFUpload elimi
 
 Standard storage dashboards are often heavy and incur hidden costs. CFUpload is purpose-built to provide a "serverless" management experience that is easy to deploy, secure by default, and incredibly fast.
 
-## 🚀 Quick Start
+## 🏁 Quick Start
 
-1. **Clone the repository:**
+* **Clone the repository:**
    ```bash
    git clone [https://github.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader.git](https://github.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader.git)
 

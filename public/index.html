@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--JS-->
+    <script src="js/worker.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <title>CFUpload - Cloudflare R2 Uploader</title>
+</head>
+
+<body>
+
+    <!--Header Navigation Element-->
+    <nav class="navbar">
+        <div class="navbar-container">
+
+            <!--Logo-->
+            <!--<a href="/" class="navbar-logo">LOGO</a>-->
+            <a href="/">
+                <img class="navbar-logo dark-logo" src="assets/brand/dark-logo.png" alt="Dark Logo">
+                <img class="navbar-logo light-logo" src="assets/brand/light-logo.png" alt="Light Logo">
+            </a>
+
+            <!--Hamburger Menu-->
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!--Menu List-->
+            <ul class="navbar-menu">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/files">My Files</a></li>
+                <li><a href="#aboutContainer">About</a></li>
+                <li><a href="#featureContainer">Features</a></li>
+                <li><a href="#faqContainer">FAQ</a></li>
+
+                <!--Theme Toggle-->
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round">
+                        <img class="icon-sun" src="assets/icons/ui/icon-sun.png" alt="Light Theme Sun Icon">
+                        <img class="icon-moon" src="assets/icons/ui/icon-moon.png" alt="Dark Theme Moon Icon">
+                    </span>
+                </label>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Main Container Element-->
+    <main class="main-container">
+
+        <div class="upload-container">
+            <form id="chooseFileFormContainer" class="choose-file-container" action="upload" method="post"
+                enctype="multipart/form-data">
+                <img class="upload-icon upload-light-icon" src="assets/icons/ui/upload-light-icon.png"
+                    alt="Upload Light Icon">
+                <img class="upload-icon upload-dark-icon" src="assets/icons/ui/upload-dark-icon.png"
+                    alt="Upload Dark Icon">
+                <span>Choose a file or drag & drop it here</span>
+                <input type="file" name="file" id="file">
+                <span id="selectedFile">Selected file: logo.png</span>
+                <button type="button" name="upload">Upload</button>
+            </form>
+
+            <span id="choiceHeading" class="divider-text">OR</span>
+
+            <form id="urlFormContainer" class="url-container" action="url" method="post" enctype="multipart/form-data">
+                <input type="text" name="url" id="url" placeholder="https://example.com/archive.zip">
+                <button type="button" name="upload">Upload</button>
+            </form>
+
+            <span id="resultHeading" class="divider-text">RESULT</span>
+
+            <div id="uploadOutputResultContainer" class="upload-result-container">
+                <span>
+                    <img class="file-icon file-light-icon" src="assets/icons/ui/file-light-icon.png"
+                        alt="File Light Icon">
+                    <img class="file-icon file-dark-icon" src="assets/icons/ui/file-dark-icon.png" alt="File Dark Icon">
+                    <a id="resultLink" href="#"></a>
+                </span>
+                <button>Copy URL</button>
+            </div>
+
+            <span id="manageFilesHeading" class="divider-text">MANAGE FILES</span>
+
+            <div id="fileListContainer" class="file-list-container">
+                <ul id="fileList"></ul>
+            </div>
+        </div>
+
+        <div id="aboutContainer" class="about-container">
+            <h2 class="about-heading">About CFUpload</h2>
+            <div class="about-image-container">
+                <img class="about-image" src="assets/brand/logo.png" alt="CFUpload Logo">
+            </div>
+            <span class="about-description">CFUpload is a lightweight, open-source tool designed to bridge the gap
+                between a user-friendly
+                web
+                interface and Cloudflare's R2 Object Storage. It allows you to transform a Cloudflare Worker
+                into a
+                self-hosted file management system with a static frontend.</span>
+        </div>
+
+        <div id="featureContainer" class="feature-container">
+            <h2 class="feature-heading">Features</h2>
+            <span class="feature-description">CFUpload streamlines your storage workflow by offering an intuitive suite
+                of tools designed
+                for
+                speed
+                and simplicity.</span>
+            <div id="featureCardContainer" class="feature-card-container"></div>
+        </div>
+
+        <div id="faqContainer" class="faq-container">
+            <h2 class="faq-heading">Frequently Asked Questions</h2>
+            <span class="faq-description">Get answers to your questions and learn about CFUpload</span>
+            <div class="faq-accordion"></div>
+        </div>
+
+    </main>
+
+    <!--Footer Copyright Element-->
+    <footer class="footer-container">
+        <p>Copyright &copy; <span id="year"></span> - CFUpload</p>
+    </footer>
+
+</body>
+
+</html>
