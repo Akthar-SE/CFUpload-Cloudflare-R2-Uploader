@@ -22,6 +22,14 @@ Designed for developers and teams who value speed and simplicity, CFUpload elimi
 
 Standard storage dashboards are often heavy and incur hidden costs. CFUpload is purpose-built to provide a "serverless" management experience that is easy to deploy, secure by default, and incredibly fast.
 
+## 🚀 Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader.git](https://github.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader.git)
+
+   cd CFUpload-Cloudflare-R2-Uploader
+
 ## ☁️ Cloudflare Setup
 Setting up your Cloudflare environment is a straightforward process. Here is the quick-start guide to prepping your R2 storage for CFUpload:
 
