@@ -34,7 +34,7 @@ Standard storage dashboards are often heavy and incur hidden costs. CFUpload is 
 
 * **Clone the repository:**
    ```bash
-   git clone [https://github.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader.git](https://github.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader.git)
+   git clone https://github.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader.git
 
    cd CFUpload-Cloudflare-R2-Uploader
 
