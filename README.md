@@ -28,7 +28,7 @@ Designed for developers and teams who value speed and simplicity, **CFUpload** e
 
 ## Why CFUpload ?
 
-Standard storage dashboards are often heavy and incur hidden costs. CFUpload is purpose-built to provide a "serverless" management experience that is easy to deploy, secure by default, and incredibly fast.
+Standard storage dashboards are often heavy and incur hidden costs. **CFUpload** is purpose-built to provide a "serverless" management experience that is easy to deploy, secure by default, and incredibly fast.
 
 ## 🏁 Quick Start
 
