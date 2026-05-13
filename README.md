@@ -8,9 +8,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/username/repo/main/assets/logo-light.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/username/repo/main/assets/logo-dark.png">
-    <img alt="CFUpload Logo" src="https://raw.githubusercontent.com/username/repo/main/assets/logo-dark.png" width="300">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/blob/main/public/assets/brand/dark-light.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/blob/main/public/assets/brand/dark-logo.png">
+    <img alt="CFUpload Logo" src="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/blob/main/public/assets/brand/dark-logo.png" width="300">
   </picture>
 </p>
 
