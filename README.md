@@ -8,7 +8,7 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/2db766126916314687b0bd0c229b60954c151b6b/public/assets/brand/light-logo.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./screenshots/deployment/cloudflare_workers_and_pages_preview.png">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/2db766126916314687b0bd0c229b60954c151b6b/public/assets/brand/dark-logo.png">
     <img alt="CFUpload Logo" src="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/2db766126916314687b0bd0c229b60954c151b6b/public/assets/brand/dark-logo.png" width="300">
   </picture>
