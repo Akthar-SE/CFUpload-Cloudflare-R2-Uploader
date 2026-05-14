@@ -121,7 +121,7 @@ Once the process completes, npm will provide you with a unique ***.workers**.dev
 
 ## 🎥 Video Preview
 
-<video src="./screenshots/video-preview/CFUpload_video_preview.mp4" width="600" controls>
+<video src="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/main/screenshots/video-preview/CFUpload_video_preview.mp4" width="600" controls>
   Your browser does not support the video tag.
 </video>
 
