@@ -120,10 +120,11 @@ Once the process completes, npm will provide you with a unique ***.workers**.dev
 ![CFUpload My Files Nightmode Preview](./screenshots/deployment/cfupload_worker_myfiles_nightmode_preview.png)
 
 ## 🎥 Video Preview
-
-<video src="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/main/screenshots/video-preview/CFUpload_video_preview.mp4" width="600" controls>
-  Your browser does not support the video tag.
-</video>
+<div align="center">
+  <video src="https://github.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/blob/main/screenshots/video-preview/CFUpload_video_preview.mp4?raw=true" width="100%" controls>
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## [🚀 View Live Project](https://cfupload.deploymeofficial.workers.dev)
 
