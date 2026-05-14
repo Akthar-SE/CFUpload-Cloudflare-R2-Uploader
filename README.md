@@ -5,7 +5,6 @@
 ![Issues](https://img.shields.io/github/issues/Akthar-SE/CFUpload-Cloudflare-R2-Uploader?color=brightgreen)
 
 # Introducing CFUpload
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./public/assets/brand/dark-logo.png">
