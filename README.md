@@ -8,9 +8,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./public/assets/brand/dark-logo.png">
-    <source media="(prefers-color-scheme: light)" srcset="./public/assets/brand/light-logo.png">
-    <img alt="CFUpload Logo" src="./public/assets/brand/light-logo.png" width="300">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/main/public/assets/brand/light-logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/main/public/assets/brand/dark-logo.png">
+    <img alt="CFUpload Logo" src="https://raw.githubusercontent.com/Akthar-SE/CFUpload-Cloudflare-R2-Uploader/main/public/assets/brand/dark-logo.png" width="300">
   </picture>
 </p>
 
@@ -22,7 +22,7 @@ Designed for developers and teams who value speed and simplicity, **CFUpload** e
 * **Efficient File Uploads:** Seamlessly upload files of all sizes directly to your R2 buckets with optimized performance.
 * **Upload From URL:** Save time and bandwidth by fetching files directly from a remote URL and storing them in your bucket..
 * **Drag & Drop Interface:** Experience a modern web workflow—simply drag files into your browser to begin the upload process instantly.
-* **Robust API Upload:** Integrate CFUpload into your own scripts or third-party applications using its lightweight API for programmatic management.
+* **Robust API Upload:** Integrate **CFUpload** into your own scripts or third-party applications using its lightweight API for programmatic management.
 * **Comprehensive File Management:** Browse, organize, and delete your objects through a clean, intuitive, and responsive dashboard.
 * **Lightweight Web Application:** Built as a Cloudflare Worker, the entire application scales automatically and runs within milliseconds of your users.
 
@@ -39,7 +39,7 @@ Standard storage dashboards are often heavy and incur hidden costs. **CFUpload**
    cd CFUpload-Cloudflare-R2-Uploader
 
 ## ☁️ Cloudflare Setup
-Setting up your Cloudflare environment is a straightforward process. Here is the quick-start guide to prepping your R2 storage for CFUpload:
+Setting up your Cloudflare environment is a straightforward process. Here is the quick-start guide to prepping your R2 storage for **CFUpload**:
 
 ### 1. Create a Cloudflare Account
 Visit **https://dash.cloudflare.com** and sign up with your email. Once your email is verified, navigate to the R2 section in the sidebar menu. You may be prompted to add a payment method (R2 has a generous free tier, but a card is required to enable the service).
@@ -118,6 +118,12 @@ Once the process completes, npm will provide you with a unique ***.workers**.dev
 
 **Nigthmode**
 ![CFUpload My Files Nightmode Preview](./screenshots/deployment/cfupload_worker_myfiles_nightmode_preview.png)
+
+## 🎥 Video Preview
+
+<video src="./screenshots/video-preview/CFUpload_video_preview.mp4" width="600" controls>
+  Your browser does not support the video tag.
+</video>
 
 ## [🚀 View Live Project](https://cfupload.deploymeofficial.workers.dev)
 
