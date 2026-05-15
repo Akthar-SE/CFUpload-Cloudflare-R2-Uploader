@@ -9,7 +9,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./public/assets/brand/dark-logo.png">
     <source media="(prefers-color-scheme: light)" srcset="./public/assets/brand/light-logo.png">
-    <img alt="CFUpload Logo" src="./public/assets/brand/light-logo.png" width="300">
+    <img alt="CFUpload Logo" src="./public/brand/light-logo.png" width="300">
   </picture>
 </p>
 
@@ -99,6 +99,15 @@ To get **CFUpload** up and running using npm, follow these quick steps to deploy
     If you want to check real-time logs or debug the application, simply run the tail command after deployment:
     ```bash
     npx wrangler tail
+    ```
+6. **API Uploading:**
+    To upload a file using standard Command Prompt (CMD) via curl, use the -F flag with the @ symbol to specify the file path.
+    ```bash
+    // Upload File Path
+    curl --ssl-no-revoke -F "file=@C:\Documents\archive.zip" "https://cfupload.deploymeofficial.workers.dev/api/upload"
+
+    // Upload File Path (Current Directory)
+    curl --ssl-no-revoke -F "file=@archive.zip" "https://cfupload.deploymeofficial.workers.dev/api/upload"
     ```
 Once the process completes, npm will provide you with a unique ***.workers**.dev URL where your management dashboard is live and ready to use.
 
