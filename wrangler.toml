@@ -13,7 +13,7 @@ binding = "R2"
 bucket_name = "mybucket"
 
 [vars]
-PUBLIC_BUCKET_URL = "https://pub-3bf7408e0417461b84e0f403d69c5e83.r2.dev"
+PUBLIC_BUCKET_URL = "https://pub-72e52bb20c7f4304b73720fec50f2619.r2.dev"
 
 [[rules]]
 type = "Text"
