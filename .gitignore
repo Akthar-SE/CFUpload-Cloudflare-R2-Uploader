@@ -1,0 +1,6 @@
+# Folders
+.wrangler/
+node_modules/
+
+# Files
+package-lock.json
