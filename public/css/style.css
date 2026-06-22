@@ -721,12 +721,6 @@ body.dark-mode .file-dark-icon {
     transition: none;
 }
 
-/*
-.about-image-container:hover::after {
-    left: 150%;
-    transition: left 0.7s ease-in-out;
-}*/
-
 .about-image-container:hover::after {
     animation: continuousShine 3s infinite;
 }
@@ -886,10 +880,6 @@ body.dark-mode .file-dark-icon {
     overflow: hidden;
     transition: all 0.3s ease;
 }
-
-/*.faq-item:hover {
-    transform: translateY(-3px);
-}*/
 
 .faq-item.active {
     border-color: #3B82F6;

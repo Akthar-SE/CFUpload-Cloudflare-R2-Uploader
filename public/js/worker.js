@@ -209,7 +209,8 @@ app.post('/api/upload', async (c) => {
             });
 
             const fileUrl = `${c.env.PUBLIC_BUCKET_URL}/${file.name}`;
-            return c.text(`File successfully uploaded!` + '\n' + `Available at: ${fileUrl}\n`)
+            //return c.text(`File successfully uploaded!` + '\n' + `Available at: ${fileUrl}\n`);
+			return c.text(fileUrl);
         }
 
         return c.text("Error: No file found in 'file' field.\n", 400);
